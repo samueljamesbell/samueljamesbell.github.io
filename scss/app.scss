@@ -5,11 +5,10 @@
 @import url(http://fonts.googleapis.com/css?family=Josefin+Slab:100italic);
 
 .site-header {
-  background: url('../img/forest.jpeg') no-repeat fixed center;
+  background: url('../img/forest.jpeg') no-repeat scroll center;
   background-size: cover;
   height: 100%;
   width: 100%;
-  position: absolute;
 
   .focus {
     height: auto;
@@ -36,6 +35,18 @@
       font-family: 'Josefin Slab', serif;
       font-style: italic;
     }
+  }
+}
+
+.site-middle {
+  height: 50%;
+  width: 100%;
+  margin-top: -3px;
+  background: #111;
+  text-align: center;
+
+  h3 {
+    color: #fff;
   }
 }
 
