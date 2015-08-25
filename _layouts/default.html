@@ -6,12 +6,11 @@
   <body>
 
     {% include header.html %}
+    {% include hero.html %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
-    </div>
+    <section class="main">
+      {{ content }}
+    </section>
 
     {% include footer.html %}
 

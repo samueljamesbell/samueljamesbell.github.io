@@ -4,7 +4,7 @@
 @import url(http://fonts.googleapis.com/css?family=Martel+Sans:800);
 @import url(http://fonts.googleapis.com/css?family=Josefin+Slab:100italic);
 
-.site-header {
+.hero{
   background: url('../img/forest.jpeg') no-repeat scroll center;
   background-size: cover;
   height: 100%;
@@ -38,7 +38,7 @@
   }
 }
 
-.site-middle {
+.bio{
   height: 50%;
   width: 100%;
   margin-top: -3px;
