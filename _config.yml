@@ -1,10 +1,7 @@
 # Site settings
 title: Samuel James Bell
 email: samueljamesbell@gmail.com
-description: "Blah, blah, blah."
-tagline: "Engineer, writer, technophobe."
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://samueljamesbell.com" # the base hostname & protocol for your site
+url: "http://samueljamesbell.com" 
 
 # Build settings
 markdown: kramdown
