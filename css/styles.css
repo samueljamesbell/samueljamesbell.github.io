@@ -72,7 +72,7 @@ img {
 
 
 
-@media screen and (min-width: 0px) {
+@media (min-width: 0px) {
     .page {
         padding-left: 20px;
         padding-top: 20px;
@@ -113,7 +113,7 @@ img {
 
 }
     
-@media screen and (min-width: 480px) {
+@media (min-width: 480px) {
     .page {
         width: 460px;
     }
@@ -145,7 +145,7 @@ img {
     }
 }
 
-@media screen and (min-width: 900px) {
+@media (min-width: 900px) {
     .page {
         padding-left: 100px;
         padding-top: 80px;
@@ -198,7 +198,7 @@ img {
 }
 
 
-@media screen and (min-width: 1200px) {
+@media (min-width: 1200px) {
     .page {
         padding-left: 100px;
         padding-top: 80px;
