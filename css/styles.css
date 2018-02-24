@@ -4,13 +4,33 @@ body {
     font-family: 'Open Sans';
     margin: 0;
     padding: 0;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.page {
+    padding-left: 100px;
+    padding-top: 80px;
+    width: 950px;
+}
+
+.left-column {
+    width: 199px;
+    float: left;
+    display: block;
+}
+
+.right-column {
+    float: left;
+    display: block;
+    width: 700px;
+    padding-top: 156px;
+    padding-left: 50px;
+    margin-bottom: 80px;
 }
 
 .about {
     display: block;
-    width: 199px;
-    padding-left: 100px;
-    padding-top: 80px;
 }
 
 h1 {
@@ -23,6 +43,26 @@ h1 {
     height: 24px;
 }
 
+h2 {
+    font-size: 16px;
+    padding-top: 32px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 14px;
+    padding-top: 14px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 21px;
+}
+
 img {
     display: block;
 }
@@ -30,6 +70,7 @@ img {
 .bio {
     margin-top: 0;
     display: block;
+    font-size: 16px;
 }
 
 .social {
@@ -43,4 +84,9 @@ img {
     padding-right: 18px;
     display: block;
     float: left;
+}
+
+.links {
+    padding-top: 24px;
+    margin-top: 48px;
 }

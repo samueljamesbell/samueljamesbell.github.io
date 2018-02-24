@@ -5,7 +5,17 @@
 
   <body>
 
-    {% include column.html %}
+    <section class="page">
+
+        <section class="left-column">
+            {% include column.html %}
+        </section>
+
+        <section class="right-column">
+            {{ content }}
+        </section>
+
+    </section>
 
   </body>
 
