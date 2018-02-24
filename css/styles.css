@@ -8,27 +8,6 @@ body {
     line-height: 21px;
 }
 
-.page {
-    padding-left: 100px;
-    padding-top: 80px;
-    width: 950px;
-}
-
-.left-column {
-    width: 199px;
-    float: left;
-    display: block;
-}
-
-.right-column {
-    float: left;
-    display: block;
-    width: 700px;
-    padding-top: 156px;
-    padding-left: 50px;
-    margin-bottom: 80px;
-}
-
 .about {
     display: block;
 }
@@ -90,3 +69,155 @@ img {
     padding-top: 24px;
     margin-top: 48px;
 }
+
+
+
+@media screen and (min-width: 0px) {
+    .page {
+        padding-left: 20px;
+        padding-top: 20px;
+        width: 300px;
+    }
+
+    .avatar {
+        display: none;
+    }
+
+    .left-column {
+        width: 300x;
+        display: block;
+    }
+
+    .right-column {
+        display: block;
+        width: 280px;
+        height: 220px;
+        margin-bottom: 80px;
+        float: left;
+        padding-top: 20px;
+        padding-right: 20px;
+    }
+
+    .links {
+        margin-top: 0px;
+        display: inline-block;
+    }
+
+    .links a {
+        padding-right: 6px;
+    }
+
+    .social {
+        display: none;
+    }
+
+}
+    
+@media screen and (min-width: 480px) {
+    .page {
+        width: 460px;
+    }
+
+    .left-column {
+        width: 460px;
+    }
+
+    .right-column {
+        width: 420px;
+        height: 200px;
+    }
+    
+    .avatar {
+        float: left;
+        width: 199px;
+        display: block;
+    }
+
+    .details {
+        display: block;
+        float: left;
+        width: 200px;
+        padding-left: 24px;
+    }
+
+    .details h1 {
+        padding-top: 0px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    .page {
+        padding-left: 100px;
+        padding-top: 80px;
+        width: 800px;
+    }
+
+    .left-column {
+        width: 199px;
+        float: left;
+        display: block;
+    }
+
+    .right-column {
+        float: left;
+        display: block;
+        width: 500px;
+        padding-top: 156px;
+        padding-left: 50px;
+        margin-bottom: 80px;
+    }
+
+    .avatar {
+        float: none;
+    }
+
+    .details {
+        display: block;
+        float: none;
+        width: 199px;
+        padding-left: 0px;
+    }
+
+    .details h1 {
+        padding-top: 12px;
+    }
+
+    .social {
+        display: block;
+    }
+
+    .links {
+        margin-top: 48px;
+        display: inline-block;
+    }
+
+    .links a {
+        display: block;
+        padding-right: 0px;
+    }
+}
+
+
+@media screen and (min-width: 1200px) {
+    .page {
+        padding-left: 100px;
+        padding-top: 80px;
+        width: 950px;
+    }
+
+    .left-column {
+        width: 199px;
+        float: left;
+        display: block;
+    }
+
+    .right-column {
+        float: left;
+        display: block;
+        width: 700px;
+        padding-top: 156px;
+        padding-left: 50px;
+        margin-bottom: 80px;
+    }
+}
+
