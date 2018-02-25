@@ -20,7 +20,7 @@ considered as using higher-order function to determine how to solve a given
 problem? Might you visualise it diagrammatically, solve it mathematically,
 or reason about it verbally?
 
-### Nature vs. nature
+### Nature vs. nurture
 Of course, humans don’t learn everything from scratch: neural wiring is
 responsible for a number of innate human biases. For example, we don’t
 learn to use our visual cortex to process images, but do learn to make
@@ -34,24 +34,19 @@ If we assume that some things are easier learned if you possess an innate
 bias, then we now have quite a radically different search space to solve
 our problems. Can we systematically generate architectures that express
 biases appropriate for given tasks? Can we determine how such architectures
-can be composed together? Does there exist a theoretical underpinning for
+can be composed together? What is the theoretical underpinning for
 why some topologies might be better than others?
 
-### Cost function generation
+### Cost function
 Supervised deep learning, and deep reinforcement learning, presuppose the
-existence of a well-defined, global cost function by which predictions or
-actions can be evaluated. Is it safe to assume one of these doesn’t exist
-for humans? Can we posit that multiple distinct cost functions exist for
-different tasks, with error propagated back appropriately? In vision,
-when distinguishing between two similar objects observed, frontal lobe
-activation decreases with repeated observation, as visual cortex
-activation increases. Is frontal lobe executive function responsible
-for cost in this case (for some vague definition of responsible)?
+existence of a global cost function by which predictions or
+actions can be evaluated. For complex tasks, it seems safe to say that such a
+function will be difficult to define by hand. Can we systematically generate
+an approximation?
 
 ### Symbolic reasoning
-Can we build fully-differentiable symbolic theorem provers? Is this
-just a classic problem for neural program induction? Can we train
-them from natural language examples?
+Can we build a fully-differentiable symbolic theorem prover? Could we train
+one from natural language examples?
 
 ### Attention
 What is actually captured in an attention vector in neural machine
