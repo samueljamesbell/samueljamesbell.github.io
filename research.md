@@ -37,7 +37,7 @@ biases appropriate for given tasks? Can we determine how such architectures
 can be composed together? What is the theoretical underpinning for
 why some topologies might be better than others?
 
-### Cost function
+### Cost function generation
 Supervised deep learning, and deep reinforcement learning, presuppose the
 existence of a global cost function by which predictions or
 actions can be evaluated. For complex tasks, it seems safe to say that such a
