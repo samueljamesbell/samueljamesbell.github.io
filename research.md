@@ -4,7 +4,7 @@ title: Research interests
 ---
 
 # Research interests
-What follows are a selection of questions that I’m actively interested in investigating.
+What follow are a selection of questions that I'm currently pondering. 
 
 ## Deep learning and neuroscience
 
