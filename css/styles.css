@@ -37,9 +37,8 @@ h3 {
 }
 
 p {
-    margin-top: 0;
-    margin-bottom: 0;
-    line-height: 21px;
+    margin-top: 0px;
+    margin-bottom: 21px;
 }
 
 img {
@@ -48,12 +47,13 @@ img {
 
 .bio {
     margin-top: 0;
+    margin-bottom: 0;
     display: block;
     font-size: 16px;
 }
 
 .social {
-    padding-top: 24px;
+    margin-top: 24px;
 }
 
 .social svg {
@@ -66,10 +66,13 @@ img {
 }
 
 .links {
-    padding-top: 24px;
-    margin-top: 48px;
+    margin-top: 21px;
 }
 
+.right-column {
+    text-align: justify;
+    text-justify: inter-word;
+}
 
 
 @media (min-width: 0px) {
@@ -162,7 +165,7 @@ img {
         float: left;
         display: block;
         width: 500px;
-        padding-top: 156px;
+        padding-top: 0px;
         padding-left: 50px;
         margin-bottom: 80px;
     }
@@ -187,7 +190,7 @@ img {
     }
 
     .links {
-        margin-top: 48px;
+        margin-top: 28px;
         display: inline-block;
     }
 
@@ -215,9 +218,10 @@ img {
         float: left;
         display: block;
         width: 600px;
-        padding-top: 156px;
+        padding-top: 0px;
         padding-left: 50px;
         margin-bottom: 80px;
+        margin-top: 0px;
     }
 }
 
