@@ -7,4 +7,4 @@ url: "http://samueljamesbell.com"
 markdown: kramdown
 permalink: pretty
 
-include: _redirects
+include: [_redirects]
