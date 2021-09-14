@@ -5,7 +5,7 @@ title: About
 
 I apply the principles and methods of psychology to understanding neural network behaviour.
 
-I'm a machine learning PhD student in the [ML@CL group](https://mlatcl.github.io/) at the University of Cambridge (Queens' College), supervised by [Prof. Neil Lawrence](https://inverseprobability.com/). During my master's I worked on deep learning and [natural language processing](https://www.cl.cam.ac.uk/research/nl/) at the Cambridge [Computer
+I'm a machine learning PhD student in the [ML@CL group](https://mlatcl.github.io/) at the University of Cambridge (Queens' College), supervised by [Prof. Neil Lawrence](https://inverseprobability.com/), and a placement student at [The Alan Turing Institute](https://www.turing.ac.uk). During my master's I worked on deep learning and [natural language processing](https://www.cl.cam.ac.uk/research/nl/) at the Cambridge [Computer
 Laboratory](https://www.cl.cam.ac.uk/). I did my bachelor's in computer science at the [University of
 Manchester](https://www.cs.manchester.ac.uk/), graduating 2013.
 
