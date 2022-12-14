@@ -6,7 +6,7 @@ subtitle: Machine learning reproducibility, robustness and fairness.
 
 profile:
   align: right
-  image: sam.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
 #  address: >
 #    <p>555 your office number</p>
