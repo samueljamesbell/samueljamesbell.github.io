@@ -1,26 +1,37 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Machine learning reproducibility, robustness and fairness.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+#  address: >
+#    <p>555 your office number</p>
+#    <p>123 your address street</p>
+#    <p>Your City, State 12345</p>
 
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
+news: false # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: false # includes social icons at the bottom of the page
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I'm Sam 👋, a Postdoctoral Research Scientist at [FAIR](https://ai.facebook.com/research/), Meta's fundamental AI research group. I currently split my time between Paris, France and Cambridge, UK. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+In 2023 I completed my PhD in machine learning as part of the [ML@CL group](https://mlatcl.github.io/) at the University of Cambridge, supervised by [Prof. Neil Lawrence](https://inverseprobability.com/).
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+My research focuses on understanding how (and often, _whether_) contemporary machine learning models actually work. Broadly, I'm interested in reproducibility and metascientific research, tooling and theory for improving the efficiency of machine learning research, and understanding algorithmic biases and questions of fairness.
+
+Previously, I have studied at [The Alan Turing Institute](https://www.turing.ac.uk), obtained a master's in natural language processing at the Cambridge [Computer Laboratory](https://www.cl.cam.ac.uk/), and did my bachelor's in computer science at the [University of Manchester](https://www.cs.manchester.ac.uk/).
+
+In between, I've simulated financial crises in market risk at [Goldman Sachs](https://www.goldmansachs.com); built new retail banks at [Thought Machine](https://www.thoughtmachine.net/), and developed next generation credit scores at [Credit Kudos](https://creditkudos.com/).
+
+I'm also the Founder and Chair of [The Preptrack Foundation](https://preptrack.co.uk), a registered charity building technology for HIV prevention. Our first app, Preptrack, helps people who use PrEP, the medication that eliminates the risk of HIV infection.
+
+If you're interested in what I do, research collaborations or opportunities, please do drop me a line. My email is samueljamesbell [at] gmail [dot] com. I'd love to hear from you.
+
+
+
+
