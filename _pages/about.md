@@ -6,7 +6,7 @@ subtitle: Machine learning fairness, robustness and metascience.
 
 profile:
   align: right
-  image: profile.jpg
+  image: profile-august.jpg
   image_circular: false # crops the image to make it circular
 
 news: false # includes a list of news items

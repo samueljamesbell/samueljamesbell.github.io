@@ -9,6 +9,14 @@ p, h1, h2, h3, h4, h5, h6, em, div, li, span, strong {
    font-family: 'Lato';
 }
 
+p {
+  line-height: 1.65rem;
+}
+
+.post-header {
+  margin-botom: 2rem;
+}
+
 hr {
   border-top: 1px solid var(--global-divider-color);
 }
