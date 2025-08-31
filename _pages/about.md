@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: Evaluating and improving LLM reliability.
+subtitle: AI Research Scientist
 
 profile:
   align: right
