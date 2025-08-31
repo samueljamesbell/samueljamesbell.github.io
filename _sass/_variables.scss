@@ -4,29 +4,38 @@
  ******************************************************************************/
 
 
-// Colors
-$red-color:           #FF3636 !default;
-$red-color-dark:      #B71C1C !default;
-$orange-color:        #F29105 !default;
-$blue-color:          #0076df !default;
-$blue-color-dark:     #00369f !default;
-$cyan-color:          #2698BA !default;
+// Modern 2025 Color Palette
+$red-color:           #EF4444 !default; // Modern red
+$red-color-dark:      #DC2626 !default;
+$orange-color:        #F97316 !default; // Vibrant orange
+$blue-color:          #3B82F6 !default; // Modern blue
+$blue-color-dark:     #1E40AF !default;
+$cyan-color:          #06B6D4 !default; // Fresh cyan
 $light-cyan-color:    lighten($cyan-color, 25%);
-$green-color:         #00ab37 !default;
-$green-color-lime:    #B7D12A !default;
-$green-color-dark:    #009f06 !default;
-$green-color-light:   #ddffdd !default;
-$green-color-bright:  #11D68B !default;
-$purple-color:        #B509AC !default;
+$green-color:         #10B981 !default; // Modern green
+$green-color-lime:    #84CC16 !default;
+$green-color-dark:    #059669 !default;
+$green-color-light:   #D1FAE5 !default;
+$green-color-bright:  #00D9A0 !default;
+$purple-color:        #8B5CF6 !default; // Modern purple
 $light-purple-color:  lighten($purple-color, 25%);
-$pink-color:          #f92080 !default;
-$pink-color-light:    #ffdddd !default;
-$yellow-color:        #efcc00 !default;
+$pink-color:          #EC4899 !default; // Modern pink
+$pink-color-light:    #FCE7F3 !default;
+$yellow-color:        #F59E0B !default; // Warmer yellow
 
-$grey-color:          #828282 !default;
-$grey-color-light:    lighten($grey-color, 40%);
-$grey-color-dark:     #1C1C1D;
-$grey-900:            #212529;
+// Neutral palette for 2025 - more sophisticated grays
+$grey-color:          #6B7280 !default; // Balanced gray
+$grey-color-light:    #F9FAFB !default; // Very light background
+$grey-color-dark:     #111827 !default; // Rich dark
+$grey-900:            #0F172A !default; // Deep navy-black
+$grey-800:            #1E293B !default; // Dark slate
+$grey-700:            #334155 !default; // Medium slate
+$grey-600:            #475569 !default; // Slate
+$grey-500:            #64748B !default; // Balanced slate
+$grey-400:            #94A3B8 !default; // Light slate
+$grey-300:            #CBD5E1 !default; // Very light slate
+$grey-200:            #E2E8F0 !default; // Whisper gray
+$grey-100:            #F1F5F9 !default; // Almost white
 
 $white-color: #ffffff !default;
 $black-color: #000000 !default;
@@ -34,5 +43,43 @@ $black-color: #000000 !default;
 
 // Theme colors
 
-$code-bg-color-light:     rgba($purple-color, 0.05);
-$code-bg-color-dark:      #2c3237 !default;
+$code-bg-color-light:     rgba($purple-color, 0.04);
+$code-bg-color-dark:      #1E293B !default;
+
+// Typography Scale (2025)
+$font-size-xs:        0.75rem;   // 12px
+$font-size-sm:        0.875rem;  // 14px
+$font-size-base:      1rem;      // 16px
+$font-size-lg:        1.125rem;  // 18px
+$font-size-xl:        1.25rem;   // 20px
+$font-size-2xl:       1.5rem;    // 24px
+$font-size-3xl:       1.875rem;  // 30px
+$font-size-4xl:       2.25rem;   // 36px
+$font-size-5xl:       3rem;      // 48px
+
+// Spacing Scale (2025)
+$space-1:             0.25rem;   // 4px
+$space-2:             0.5rem;    // 8px
+$space-3:             0.75rem;   // 12px
+$space-4:             1rem;      // 16px
+$space-5:             1.25rem;   // 20px
+$space-6:             1.5rem;    // 24px
+$space-8:             2rem;      // 32px
+$space-10:            2.5rem;    // 40px
+$space-12:            3rem;      // 48px
+$space-16:            4rem;      // 64px
+
+// Border Radius (2025)
+$radius-sm:           0.25rem;
+$radius-base:         0.375rem;
+$radius-md:           0.5rem;
+$radius-lg:           0.75rem;
+$radius-xl:           1rem;
+$radius-full:         9999px;
+
+// Box Shadows (2025)
+$shadow-sm:           0 1px 2px 0 rgba(0, 0, 0, 0.05);
+$shadow-base:         0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
+$shadow-md:           0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+$shadow-lg:           0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+$shadow-xl:           0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);

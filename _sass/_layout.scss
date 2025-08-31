@@ -6,6 +6,8 @@ body {
   padding-bottom: 70px;
   color: var(--global-text-color);
   background-color: var(--global-bg-color);
+  font-size: 16px;
+  line-height: 1.7;
 
   h1, h2, h3, h4, h5, h6 {
     scroll-margin-top: 66px;
@@ -24,12 +26,56 @@ body.sticky-bottom-footer {
 
 .container {
   max-width: $max-content-width;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+// Enhanced spacing for better readability
+.content {
+  margin-top: 2rem;
+  margin-bottom: 3rem;
 }
 
 // Profile
 .profile {
   img {
     width: 100%;
+    border-radius: 0.5rem;
+    border: 1px solid var(--global-divider-color);
+    transition: border-color 0.3s ease;
+    
+    &:hover {
+      border-color: var(--global-theme-color);
+    }
+  }
+}
+
+// Modern section spacing
+section {
+  margin-bottom: 3rem;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+// Better responsive design
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  h2 {
+    font-size: 1.5rem;
+  }
+  
+  .profile {
+    margin-bottom: 2rem;
   }
 }
 
