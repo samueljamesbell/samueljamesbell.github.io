@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: AI Research Scientist
+subtitle: Research Scientist
 
 profile:
   align: right
@@ -14,15 +14,15 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: false # includes social icons at the bottom of the page
 ---
 
-I'm Sam 👋, a Research Scientist at [FAIR](https://ai.facebook.com/research/), the fundamental AI research group of Meta's Superintelligence Labs. I split my time between London and Cambridge, UK.
+I'm Sam 👋, a Member of Technical Staff at [Slingshot AI](https://slingshotai.com), where I work on AI for mental health. I split my time between London and Cambridge, UK.
 
-My research is broadly focused on both evaluating and improving the reliability of LLMs.
-I'm particularly interested in understanding model performance in novel or out-of-distribution scenarios, such as prompts unlike those seen during pre- or post-training.
-I'm also very excited by techniques for better handling uncertainty, ranging from missing training data to ambiguous user intent.
+My research is broadly focused on evaluating and improving advanced capabilities of LLMs.
+I'm particularly interested in post-training methods for eliciting complex behaviours such as reasoning about uncertainty or adapting to subjective user preferences, often with an emphasis on scalability through the use of synthetic data.
+A consistent theme throughout my work is LLM reliability, including understanding model behaviour in novel or out-of-distribution scenarios.
 
-I joined FAIR London in 2023 after a postdoc with FAIR Paris. 
-In 2022 I completed my PhD in machine learning as part of the [ML@CL group](https://mlatcl.github.io/) at the University of Cambridge, supervised by [Prof. Neil Lawrence](https://inverseprobability.com/).
-Previously, I have studied at [The Alan Turing Institute](https://www.turing.ac.uk), obtained a master's in natural language processing at the Cambridge [Computer Laboratory](https://www.cl.cam.ac.uk/), and did my bachelor's in computer science at the [University of Manchester](https://www.cs.manchester.ac.uk/).
+Previously, I was a Research Scientist at [FAIR](https://ai.meta.com/research/), Meta's fundamental AI research lab, which I joined in 2023 after a postdoc with FAIR Paris.
+In 2022, I completed my PhD in machine learning as part of the [ML@CL group](https://mlatcl.github.io/) at the University of Cambridge, supervised by [Prof. Neil Lawrence](https://inverseprobability.com/).
+I have also studied at [The Alan Turing Institute](https://www.turing.ac.uk), obtained a master's in natural language processing at the Cambridge [Computer Laboratory](https://www.cl.cam.ac.uk/), and completed my bachelor's in computer science at the [University of Manchester](https://www.cs.manchester.ac.uk/).
 
 In between, I've simulated financial crises in market risk at [Goldman Sachs](https://www.goldmansachs.com), built new retail banks at [Thought Machine](https://www.thoughtmachine.net/), and developed next generation credit scores at [Credit Kudos](https://creditkudos.com/).
 
